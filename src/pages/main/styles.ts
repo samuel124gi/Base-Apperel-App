@@ -70,7 +70,7 @@ export const FormContainer = styled.div`
   flex-direction: column;
   gap: 10px;
 `;
-export const Input = styled.input<{ $isError?: boolean }>`
+export const Input = styled.input`
   border: none;
   outline: none;
   font-size: 16px;
