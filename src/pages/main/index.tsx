@@ -19,6 +19,7 @@ import Logo from "../../assets/icons/logo.svg";
 import { useForm } from "react-hook-form";
 import Arrow from "../../assets/icons/icon-arrow.svg";
 
+import ErrorIcon from "../../assets/icons/icon-error.svg";
 const Main = () => {
   const {
     register,
@@ -62,6 +63,7 @@ const Main = () => {
                     },
                   })}
                 />
+                {errors.email && <ErrorIcon />}
                 <Button>
                   <Arrow />
                 </Button>

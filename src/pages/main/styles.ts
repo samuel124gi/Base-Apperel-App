@@ -70,15 +70,17 @@ export const FormContainer = styled.div`
   flex-direction: column;
   gap: 10px;
 `;
-export const Input = styled.input`
+export const Input = styled.input<{ $isError?: boolean }>`
   border: none;
   outline: none;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
   color:${colors.secondary02}
   line-height: 215%;
   padding-left: 20px;
   background: transparent;
+
+
 `;
 export const Form = styled.form`
   align-items: center;
