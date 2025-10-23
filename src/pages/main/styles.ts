@@ -73,12 +73,14 @@ export const FormContainer = styled.div`
 export const Input = styled.input`
   border: none;
   outline: none;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
   color:${colors.secondary02}
   line-height: 215%;
   padding-left: 20px;
   background: transparent;
+
+
 `;
 export const Form = styled.form`
   align-items: center;
